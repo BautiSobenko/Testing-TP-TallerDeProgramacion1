@@ -63,7 +63,7 @@ public class agregarPromocionFijaTest {
         req.setIdProducto(producto.getId());
 
         Assert.assertNotNull(gestionDePromos.agregarPromoFija(req));
-        this.escenarioListaVacia.borraEscenario();
+        tearDown1();
 
     }
 
@@ -84,7 +84,7 @@ public class agregarPromocionFijaTest {
 
         Assert.assertThrows("Deberia lanzar excepcion, promocion presente en la coleccion", MalaSolicitudException.class, () -> gestionDePromos.agregarPromoFija(req));
 
-        this.tearDown2();
+        tearDown2();
     }
 
     @Test(expected = MalaSolicitudException.class)
@@ -102,7 +102,7 @@ public class agregarPromocionFijaTest {
         request.setIdProducto(producto.getId());
 
         gestionDePromos.agregarPromoFija(request);
-        this.escenarioListaVacia.borraEscenario();
+        tearDown1();
     }
 
     @Test(expected = MalaSolicitudException.class)
@@ -120,7 +120,7 @@ public class agregarPromocionFijaTest {
         request.setIdProducto(producto.getId());
 
         gestionDePromos.agregarPromoFija(request);
-        this.escenarioListaVacia.borraEscenario();
+        tearDown1();
     }
 
     @Test(expected = MalaSolicitudException.class)
@@ -138,7 +138,7 @@ public class agregarPromocionFijaTest {
         request.setIdProducto(producto.getId());
 
         gestionDePromos.agregarPromoFija(request);
-        this.escenarioListaVacia.borraEscenario();
+        tearDown1();
     }
 
 }
