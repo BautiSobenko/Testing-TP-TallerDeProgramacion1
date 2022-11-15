@@ -1,5 +1,7 @@
 package com.grupo8.app.controladores;
 
+import com.grupo8.app.gui.InterfazOptionPanel;
+import com.grupo8.app.gui.MiOptionPane;
 import com.grupo8.app.modelo.Empresa;
 import com.grupo8.app.modelo.Operario;
 import com.grupo8.app.negocio.GestionDeUsuarios;
@@ -15,6 +17,11 @@ public class ControladorLogin implements ActionListener {
 	private static ControladorLogin instancia = null;
 	private Empresa empresa;
 	private GestionDeUsuarios gestionDeUsuarios;
+	private InterfazOptionPanel optionPane = new MiOptionPane();
+
+	public void setOptionPane(InterfazOptionPanel optionPane) {
+		this.optionPane = optionPane;
+	}
 
 	public ControladorLogin() {
 		this.vista = new VistaLogin();
@@ -44,7 +51,7 @@ public class ControladorLogin implements ActionListener {
 			try {
 				this.logueado = gestionDeUsuarios.login(vista.getUsername(), vista.getContrasena());
 			} catch (Exception exception) {
-				vista.error("Error", "Usuario o contraseña incorrectos");
+				this.optionPane.ShowMessage(null, "Usuario o contraseña incorrectos");
 				break;
 			}
 			if (this.logueado != null) {
@@ -70,5 +77,7 @@ public class ControladorLogin implements ActionListener {
 	public Operario getLogueado() {
 		return logueado;
 	}
+
+
 
 }

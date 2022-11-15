@@ -2,11 +2,8 @@ package com.grupo8.app.negocio.testPersistencia;
 
 import com.grupo8.app.modelo.Empresa;
 import com.grupo8.app.negocio.GestionDeProductos;
-import com.grupo8.app.persistencia.Ipersistencia;
-import com.grupo8.app.persistencia.PersistenciaXML;
 import com.grupo8.app.wrappers.ProductoWrapper;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,7 +19,7 @@ public class PersisteciaTest {
     ProductoWrapper productosExpected;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
 
         ProductoWrapper productoWrapper = new ProductoWrapper();
         productoWrapper.setProductos( new HashSet<>() );
@@ -50,6 +47,7 @@ public class PersisteciaTest {
     public void crearArchivoTest() {
         gestionDeProductos.persistir();
         File archivo = new File("productos.xml");
+
         assertTrue( "El archivo deberia existir" , archivo.exists() );
     }
 

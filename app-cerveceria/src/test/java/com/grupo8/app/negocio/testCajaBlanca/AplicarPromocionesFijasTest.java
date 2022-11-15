@@ -1,10 +1,10 @@
-package com.grupo8.app.negocio.cajaBlanca;
+package com.grupo8.app.negocio.testCajaBlanca;
 
 import com.grupo8.app.modelo.*;
 import com.grupo8.app.negocio.GestionDeMesas;
-import com.grupo8.app.negocio.cajaBlanca.escenarios.Escenario1;
-import com.grupo8.app.negocio.cajaBlanca.escenarios.Escenario2;
-import com.grupo8.app.negocio.cajaBlanca.escenarios.Escenario3;
+import com.grupo8.app.negocio.testCajaBlanca.escenarios.Escenario1;
+import com.grupo8.app.negocio.testCajaBlanca.escenarios.Escenario2;
+import com.grupo8.app.negocio.testCajaBlanca.escenarios.Escenario3;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,14 +1,8 @@
-package com.grupo8.app.negocio.cajaBlanca.escenarios;
+package com.grupo8.app.negocio.testCajaBlanca.escenarios;
 
-import com.grupo8.app.dto.AddProductoRequest;
-import com.grupo8.app.dto.ProductoDTO;
-import com.grupo8.app.dto.PromoFijaRequest;
-import com.grupo8.app.excepciones.MalaSolicitudException;
 import com.grupo8.app.modelo.Empresa;
 import com.grupo8.app.modelo.Producto;
 import com.grupo8.app.modelo.Promociones.PromocionFija;
-import com.grupo8.app.negocio.GestionDeProductos;
-import com.grupo8.app.negocio.GestionDePromos;
 import com.grupo8.app.wrappers.PromocionesFijasWrapper;
 
 import java.time.DayOfWeek;

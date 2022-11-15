@@ -1,4 +1,4 @@
-package com.grupo8.app.negocio.cajaBlanca.escenarios;
+package com.grupo8.app.negocio.testCajaBlanca.escenarios;
 
 import com.grupo8.app.modelo.Empresa;
 import com.grupo8.app.modelo.Promociones.PromocionFija;

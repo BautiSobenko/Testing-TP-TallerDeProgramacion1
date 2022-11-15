@@ -87,6 +87,11 @@ public class VistaLogin extends JFrame implements KeyListener, ILogin {
 		btnEntrar.setEnabled(false);
 		panelSur.add(btnEntrar);
 
+		//Test GUI
+		this.btnEntrar.setName("btnEntrar");
+		this.usernameField.setName("textFieldUsername");
+		this.contrasenaField.setName("textFieldContrasena");
+
 		this.setVisible(true);
 		
 	}
