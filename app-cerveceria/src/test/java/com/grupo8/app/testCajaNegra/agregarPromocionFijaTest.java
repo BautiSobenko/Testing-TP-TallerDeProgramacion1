@@ -68,7 +68,7 @@ public class agregarPromocionFijaTest {
     }
 
     @Test(expected = MalaSolicitudException.class)
-    public void agregarPromoFijaFail() throws MalaSolicitudException {
+    public void agregarPromoFijaFail() {
 
         this.escenarioListaNoVacia.aplicaEscenario2();
 
