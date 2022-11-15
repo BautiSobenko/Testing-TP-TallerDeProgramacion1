@@ -1,13 +1,11 @@
 package com.grupo8.app.negocio.cajaBlanca;
 
-import com.grupo8.app.dto.ProductoDTO;
 import com.grupo8.app.modelo.*;
 import com.grupo8.app.negocio.GestionDeMesas;
 import com.grupo8.app.negocio.cajaBlanca.escenarios.Escenario1;
 import com.grupo8.app.negocio.cajaBlanca.escenarios.Escenario2;
 import com.grupo8.app.negocio.cajaBlanca.escenarios.Escenario3;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,7 +14,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class aplicarPromocionesFijasTest {
+public class AplicarPromocionesFijasTest {
 
     Escenario1 escenarioSinPromo;
     Escenario2 escenarioPromo2x1;
@@ -53,7 +51,7 @@ public class aplicarPromocionesFijasTest {
 
         Mesa mesa = new Mesa(1 , 2);
         Comanda comanda = new Comanda(mesa);
-        Pedido pedido1 = new Pedido(new Producto("Pizza", 20, 10, 20), 4);
+        Pedido pedido1 = new Pedido(this.escenarioPromoCant.getProducto(), 4);
         Pedido pedido2 = new Pedido(new Producto("Fideos", 20, 10, 20), 1);
         List<Pedido> pedidos = new ArrayList<>();
         pedidos.add(pedido1);
@@ -61,7 +59,7 @@ public class aplicarPromocionesFijasTest {
         comanda.setPedidos(pedidos);
 
         CierreComanda cierreComanda = new CierreComanda(comanda);
-        assertFalse("No se deberia haber aplicado promocion", gestionDeMesas.aplicarPromocionesFijas(cierreComanda));
+        assertTrue("Se deberia haber aplicado promocion", gestionDeMesas.aplicarPromocionesFijas(cierreComanda));
 
         this.escenarioPromoCant.borraEscenario();
 

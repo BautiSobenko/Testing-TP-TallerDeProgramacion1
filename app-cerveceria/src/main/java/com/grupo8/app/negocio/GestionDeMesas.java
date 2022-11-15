@@ -231,7 +231,6 @@ public class GestionDeMesas {
         boolean aplicoPromo = false;
         List<Promocion> promos = new ArrayList<>();
         promos.addAll(this.empresa.getPromocionesFijas().getPromocionesFijas());
-        //promos.addAll(this.empresa.getPromocionesTemporales().getPromocionesTemporales());
 
         List<Promocion> promosFijas =
                 promos
