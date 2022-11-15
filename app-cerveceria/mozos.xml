@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="17.0.2" class="java.beans.XMLDecoder">
+<java version="18.0.1" class="java.beans.XMLDecoder">
  <object class="com.grupo8.app.wrappers.MozoWrapper">
   <void property="mozos">
    <object class="java.util.HashSet">
@@ -13,6 +13,24 @@
       </void>
       <void property="fechaNacimiento">
        <object class="java.util.Date">
+        <long>1668548552959</long>
+       </object>
+      </void>
+      <void property="id">
+       <string>f0a40b38-e2d7-4466-952a-e311194b9fe6</string>
+      </void>
+      <void property="nombreCompleto">
+       <string>TEST</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mozo">
+      <void property="estadoMozo">
+       <object idref="EstadoMozo0"/>
+      </void>
+      <void property="fechaNacimiento">
+       <object class="java.util.Date">
         <long>1668272496357</long>
        </object>
       </void>
@@ -21,130 +39,6 @@
       </void>
       <void property="nombreCompleto">
        <string>test</string>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Mozo">
-      <void property="estadoMozo">
-       <object idref="EstadoMozo0"/>
-      </void>
-      <void property="fechaNacimiento">
-       <object class="java.util.Date">
-        <long>1668272496485</long>
-       </object>
-      </void>
-      <void property="id">
-       <string>1de972fa-2bee-4ab9-a363-f37260e2740a</string>
-      </void>
-      <void property="nombreCompleto">
-       <string>test</string>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Mozo">
-      <void property="estadoMozo">
-       <object idref="EstadoMozo0"/>
-      </void>
-      <void property="fechaNacimiento">
-       <object class="java.util.Date">
-        <long>1668377861474</long>
-       </object>
-      </void>
-      <void property="id">
-       <string>150d4f47-f93f-4e6c-a6f6-3dfd1dcf3f1e</string>
-      </void>
-      <void property="nombreCompleto">
-       <string>test</string>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Mozo">
-      <void property="estadoMozo">
-       <object idref="EstadoMozo0"/>
-      </void>
-      <void property="fechaNacimiento">
-       <object class="java.util.Date">
-        <long>1668272496410</long>
-       </object>
-      </void>
-      <void property="id">
-       <string>b63c0cbc-927b-4157-bd49-0792e6bbb82c</string>
-      </void>
-      <void property="nombreCompleto">
-       <string>test</string>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Mozo">
-      <void property="estadoMozo">
-       <object idref="EstadoMozo0"/>
-      </void>
-      <void property="fechaNacimiento">
-       <object class="java.util.Date">
-        <long>1668272496501</long>
-       </object>
-      </void>
-      <void property="id">
-       <string>c52dc457-656b-497f-b436-f83a89cac87a</string>
-      </void>
-      <void property="nombreCompleto">
-       <string>test</string>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Mozo">
-      <void property="estadoMozo">
-       <object idref="EstadoMozo0"/>
-      </void>
-      <void property="fechaNacimiento">
-       <object class="java.util.Date">
-        <long>984625200000</long>
-       </object>
-      </void>
-      <void property="id">
-       <string>b2d42b1f-ebaf-4e09-bec5-9bc5a457a2cb</string>
-      </void>
-      <void property="nombreCompleto">
-       <string>Jeremias Savarino</string>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Mozo">
-      <void property="estadoMozo">
-       <object idref="EstadoMozo0"/>
-      </void>
-      <void property="fechaNacimiento">
-       <object class="java.util.Date">
-        <long>1668272496433</long>
-       </object>
-      </void>
-      <void property="id">
-       <string>e10ee385-6146-4bf9-8b04-d600534af53e</string>
-      </void>
-      <void property="nombreCompleto">
-       <string>test</string>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Mozo">
-      <void property="cantidadHijos">
-       <int>2</int>
-      </void>
-      <void property="estadoMozo">
-       <object idref="EstadoMozo0"/>
-      </void>
-      <void property="id">
-       <string>bba43b8b-f462-4186-a4c2-49319b53646c</string>
-      </void>
-      <void property="nombreCompleto">
-       <string>[TEST] Juan Perez</string>
       </void>
      </object>
     </void>
@@ -181,6 +75,166 @@
       </void>
       <void property="id">
        <string>0369f050-3f22-4a66-adb6-2b90e78917eb</string>
+      </void>
+      <void property="nombreCompleto">
+       <string>test</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mozo">
+      <void property="estadoMozo">
+       <object idref="EstadoMozo0"/>
+      </void>
+      <void property="fechaNacimiento">
+       <object class="java.util.Date">
+        <long>1668272496501</long>
+       </object>
+      </void>
+      <void property="id">
+       <string>c52dc457-656b-497f-b436-f83a89cac87a</string>
+      </void>
+      <void property="nombreCompleto">
+       <string>test</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mozo">
+      <void property="estadoMozo">
+       <object idref="EstadoMozo0"/>
+      </void>
+      <void property="fechaNacimiento">
+       <object class="java.util.Date">
+        <long>1668548404492</long>
+       </object>
+      </void>
+      <void property="id">
+       <string>9c2a1190-ad13-4238-a1ea-f68460cdf66b</string>
+      </void>
+      <void property="nombreCompleto">
+       <string>TEST</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mozo">
+      <void property="estadoMozo">
+       <object idref="EstadoMozo0"/>
+      </void>
+      <void property="fechaNacimiento">
+       <object class="java.util.Date">
+        <long>1668377861474</long>
+       </object>
+      </void>
+      <void property="id">
+       <string>150d4f47-f93f-4e6c-a6f6-3dfd1dcf3f1e</string>
+      </void>
+      <void property="nombreCompleto">
+       <string>test</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mozo">
+      <void property="estadoMozo">
+       <object idref="EstadoMozo0"/>
+      </void>
+      <void property="fechaNacimiento">
+       <object class="java.util.Date">
+        <long>1668272496485</long>
+       </object>
+      </void>
+      <void property="id">
+       <string>1de972fa-2bee-4ab9-a363-f37260e2740a</string>
+      </void>
+      <void property="nombreCompleto">
+       <string>test</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mozo">
+      <void property="estadoMozo">
+       <object idref="EstadoMozo0"/>
+      </void>
+      <void property="fechaNacimiento">
+       <object class="java.util.Date">
+        <long>1668272496433</long>
+       </object>
+      </void>
+      <void property="id">
+       <string>e10ee385-6146-4bf9-8b04-d600534af53e</string>
+      </void>
+      <void property="nombreCompleto">
+       <string>test</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mozo">
+      <void property="estadoMozo">
+       <object idref="EstadoMozo0"/>
+      </void>
+      <void property="fechaNacimiento">
+       <object class="java.util.Date">
+        <long>984625200000</long>
+       </object>
+      </void>
+      <void property="id">
+       <string>b2d42b1f-ebaf-4e09-bec5-9bc5a457a2cb</string>
+      </void>
+      <void property="nombreCompleto">
+       <string>Jeremias Savarino</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mozo">
+      <void property="cantidadHijos">
+       <int>2</int>
+      </void>
+      <void property="estadoMozo">
+       <object idref="EstadoMozo0"/>
+      </void>
+      <void property="id">
+       <string>bba43b8b-f462-4186-a4c2-49319b53646c</string>
+      </void>
+      <void property="nombreCompleto">
+       <string>[TEST] Juan Perez</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mozo">
+      <void property="estadoMozo">
+       <object idref="EstadoMozo0"/>
+      </void>
+      <void property="fechaNacimiento">
+       <object class="java.util.Date">
+        <long>1668548333797</long>
+       </object>
+      </void>
+      <void property="id">
+       <string>0bbc908a-21b3-4bbe-aa3f-56e27654f6fe</string>
+      </void>
+      <void property="nombreCompleto">
+       <string>TEST</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mozo">
+      <void property="estadoMozo">
+       <object idref="EstadoMozo0"/>
+      </void>
+      <void property="fechaNacimiento">
+       <object class="java.util.Date">
+        <long>1668272496410</long>
+       </object>
+      </void>
+      <void property="id">
+       <string>b63c0cbc-927b-4157-bd49-0792e6bbb82c</string>
       </void>
       <void property="nombreCompleto">
        <string>test</string>
