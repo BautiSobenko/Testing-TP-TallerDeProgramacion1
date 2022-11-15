@@ -1,4 +1,4 @@
-package com.grupo8.app.negocio.testNegocio;
+package com.grupo8.app.testNegocio;
 
 import com.grupo8.app.dto.*;
 import com.grupo8.app.excepciones.EntidadNoEncontradaException;

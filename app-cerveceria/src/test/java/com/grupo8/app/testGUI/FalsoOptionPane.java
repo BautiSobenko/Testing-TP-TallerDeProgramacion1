@@ -1,4 +1,4 @@
-package com.grupo8.app.negocio.testGUI;
+package com.grupo8.app.testGUI;
 
 import com.grupo8.app.gui.InterfazOptionPanel;
 import java.awt.Component;

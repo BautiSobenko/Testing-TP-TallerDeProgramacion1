@@ -1,4 +1,4 @@
-package com.grupo8.app.negocio.testCajaBlanca.escenarios;
+package com.grupo8.app.testCajaNegra.escenarios;
 
 import com.grupo8.app.modelo.Empresa;
 import com.grupo8.app.modelo.Producto;
@@ -9,32 +9,23 @@ import java.time.DayOfWeek;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class Escenario2 {
 
-    Empresa empresa;
-    PromocionesFijasWrapper promocionesFijas;
-    Producto producto;
-
-    public Escenario2() {
-        empresa = Empresa.getEmpresa();
-    }
+    private PromocionesFijasWrapper promocionesFijasAnterior;
 
     public void aplicaEscenario2(){
 
-        this.promocionesFijas = empresa.getPromocionesFijas();
+        this.promocionesFijasAnterior = Empresa.getEmpresa().getPromocionesFijas();
 
-        Set<PromocionFija> promocionesFijas = new HashSet<>();
-
-        empresa.getPromocionesFijas().setPromocionesFijas(promocionesFijas);
+        Empresa.getEmpresa().getPromocionesTemporales().setPromocionesTemporales( new HashSet<>() );
 
         List<DayOfWeek> diasPromo = new ArrayList<>();
         diasPromo.add( DayOfWeek.MONDAY );
         diasPromo.add( DayOfWeek.SUNDAY );
         diasPromo.add( DayOfWeek.TUESDAY );
 
-        this.producto = new Producto(
+        Producto producto = new Producto(
                 "Pizza",
                 20,
                 10,
@@ -51,16 +42,13 @@ public class Escenario2 {
                 null
         );
 
-        empresa.getPromocionesFijas().getPromocionesFijas().add(promocionFija);
+        Empresa.getEmpresa().getPromocionesFijas().getPromocionesFijas().add(promocionFija);
+
 
     }
-
 
     public void borraEscenario(){
-        empresa.setPromocionesFijas(promocionesFijas);
+        Empresa.getEmpresa().setPromocionesFijas(promocionesFijasAnterior);
     }
 
-    public Producto getProducto() {
-        return producto;
-    }
 }

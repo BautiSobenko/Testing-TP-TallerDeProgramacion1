@@ -2,7 +2,369 @@
 <java version="16.0.2" class="java.beans.XMLDecoder">
  <object class="com.grupo8.app.wrappers.ProductoWrapper">
   <void property="productos">
-   <object class="java.util.HashSet"/>
+   <object class="java.util.HashSet">
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>df462110-770c-47cd-867c-238615c54393</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>b6e91968-6bee-42ba-94b8-18b34ad89479</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>3c274499-e84c-48fc-a32e-74ede749a8cd</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>155a7734-8a8d-4047-9b17-9b5e146fd09a</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>f4fba4ef-e26d-44e8-b046-d65ef05bf58c</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>4a1d77aa-c7b3-4f5f-aa29-0963203c8979</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>a0f8cd8b-9afa-426d-be11-3c6749ac6e46</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>3105e06f-33c8-48a1-a978-de8ac3015b28</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>640a9399-2e3c-4e5c-b572-6c8d1b0f55c7</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>7e09f66a-775d-408a-bc00-6fc8c7fb7f1a</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>017c25af-fa0b-4ba6-ac7a-62e7d7a05187</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>e44b2742-e276-4d8b-8216-fb4f851369ca</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>ba813041-4366-479b-b282-218ef8488305</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>4c6681bc-e0c8-4fb0-bbfa-89f731e6a417</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>f4c13e5b-544d-4a44-a5e8-001b00f3d31f</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>d296090f-808a-42a0-ba80-735938af9c09</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>3ff4730f-1ff1-4beb-8108-e02b8fc875a8</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>a24ace45-c119-4b49-b0af-0b4b044fb9fc</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Producto">
+      <void property="costo">
+       <float>50.0</float>
+      </void>
+      <void property="id">
+       <string>f95198f3-0dd0-4a27-bec3-dc4461ea0a3e</string>
+      </void>
+      <void property="nombre">
+       <string>test</string>
+      </void>
+      <void property="precio">
+       <float>100.0</float>
+      </void>
+      <void property="stock">
+       <int>200</int>
+      </void>
+     </object>
+    </void>
+   </object>
   </void>
  </object>
 </java>

@@ -1,4 +1,4 @@
-package com.grupo8.app.negocio.testGUI;
+package com.grupo8.app.testGUI;
 
 import java.awt.Component;
 import java.awt.Container;
