@@ -110,6 +110,7 @@ public class GestionDePromos {
      * @throws MalaSolicitudException si no existe el producto, o si se propagan excepciones de validacion de validarUpdatePromoFija
      */
     public PromoFijaDTO agregarPromoFija(PromoFijaRequest request) throws MalaSolicitudException {
+
         Optional<Producto> producto = this.empresa.getProductos().getProductos().stream()
                 .filter(p -> p.getId().equals(request.getIdProducto()))
                 .findFirst();
