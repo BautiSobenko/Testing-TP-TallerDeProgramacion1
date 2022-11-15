@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="16.0.2" class="java.beans.XMLDecoder">
+ <object class="com.grupo8.app.wrappers.PromocionesFijasWrapper">
+  <void property="promocionesFijas">
+   <object class="java.util.HashSet">
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Promociones.PromocionFija">
+      <void property="activo">
+       <boolean>true</boolean>
+      </void>
+      <void property="diasPromo">
+       <object class="java.util.ArrayList" id="ArrayList0">
+        <void method="add">
+         <object class="java.lang.Enum" method="valueOf">
+          <class>java.time.DayOfWeek</class>
+          <string>MONDAY</string>
+         </object>
+        </void>
+        <void method="add">
+         <object class="java.lang.Enum" method="valueOf">
+          <class>java.time.DayOfWeek</class>
+          <string>TUESDAY</string>
+         </object>
+        </void>
+        <void method="add">
+         <object class="java.lang.Enum" method="valueOf">
+          <class>java.time.DayOfWeek</class>
+          <string>WEDNESDAY</string>
+         </object>
+        </void>
+        <void method="add">
+         <object class="java.lang.Enum" method="valueOf">
+          <class>java.time.DayOfWeek</class>
+          <string>THURSDAY</string>
+         </object>
+        </void>
+        <void method="add">
+         <object class="java.lang.Enum" method="valueOf">
+          <class>java.time.DayOfWeek</class>
+          <string>FRIDAY</string>
+         </object>
+        </void>
+        <void method="add">
+         <object class="java.lang.Enum" method="valueOf">
+          <class>java.time.DayOfWeek</class>
+          <string>SATURDAY</string>
+         </object>
+        </void>
+        <void method="add">
+         <object class="java.lang.Enum" method="valueOf">
+          <class>java.time.DayOfWeek</class>
+          <string>SUNDAY</string>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="dosPorUno">
+       <boolean>true</boolean>
+      </void>
+      <void property="dtoPorCant">
+       <boolean>false</boolean>
+      </void>
+      <void property="idPromocion">
+       <string>1eb72c38-eef8-49f7-968b-8d17853c2891</string>
+      </void>
+      <void property="nombre">
+       <string>Test promo</string>
+      </void>
+      <void property="producto">
+       <object class="com.grupo8.app.modelo.Producto" id="Producto0">
+        <void property="costo">
+         <float>50.0</float>
+        </void>
+        <void property="id">
+         <string>cadf84bf-c4ed-4324-9626-47647ade5171</string>
+        </void>
+        <void property="nombre">
+         <string>test</string>
+        </void>
+        <void property="precio">
+         <float>100.0</float>
+        </void>
+        <void property="stock">
+         <int>200</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Promociones.PromocionFija">
+      <void property="activo">
+       <boolean>true</boolean>
+      </void>
+      <void property="dosPorUno">
+       <boolean>true</boolean>
+      </void>
+      <void property="dtoPorCant">
+       <boolean>false</boolean>
+      </void>
+      <void property="idPromocion">
+       <string>636f6c05-7cf7-4e2d-8a58-230e497d7588</string>
+      </void>
+      <void property="nombre">
+       <string>Test promo</string>
+      </void>
+      <void property="producto">
+       <object class="com.grupo8.app.modelo.Producto">
+        <void property="costo">
+         <float>50.0</float>
+        </void>
+        <void property="id">
+         <string>e03cd9a4-cf4e-4065-bfe9-8cc69d0e2eb0</string>
+        </void>
+        <void property="nombre">
+         <string>test</string>
+        </void>
+        <void property="precio">
+         <float>100.0</float>
+        </void>
+        <void property="stock">
+         <int>200</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Promociones.PromocionFija">
+      <void property="activo">
+       <boolean>true</boolean>
+      </void>
+      <void property="dosPorUno">
+       <boolean>true</boolean>
+      </void>
+      <void property="dtoPorCant">
+       <boolean>false</boolean>
+      </void>
+      <void property="idPromocion">
+       <string>1a184693-bcc5-49ea-88af-a3e2bb6667de</string>
+      </void>
+      <void property="nombre">
+       <string>Test promo</string>
+      </void>
+      <void property="producto">
+       <object class="com.grupo8.app.modelo.Producto">
+        <void property="costo">
+         <float>50.0</float>
+        </void>
+        <void property="id">
+         <string>628bf502-1145-4b09-8681-cf7eb3304293</string>
+        </void>
+        <void property="nombre">
+         <string>Pizza</string>
+        </void>
+        <void property="precio">
+         <float>100.0</float>
+        </void>
+        <void property="stock">
+         <int>200</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Promociones.PromocionFija">
+      <void property="activo">
+       <boolean>true</boolean>
+      </void>
+      <void property="dosPorUno">
+       <boolean>true</boolean>
+      </void>
+      <void property="dtoPorCant">
+       <boolean>false</boolean>
+      </void>
+      <void property="idPromocion">
+       <string>3b09380e-9e8e-4175-820b-cdeaa3f22f39</string>
+      </void>
+      <void property="nombre">
+       <string>Test promo</string>
+      </void>
+      <void property="producto">
+       <object class="com.grupo8.app.modelo.Producto">
+        <void property="costo">
+         <float>50.0</float>
+        </void>
+        <void property="id">
+         <string>86dbfaff-4d0a-485d-837c-06a720d7a702</string>
+        </void>
+        <void property="nombre">
+         <string>test</string>
+        </void>
+        <void property="precio">
+         <float>100.0</float>
+        </void>
+        <void property="stock">
+         <int>200</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Promociones.PromocionFija">
+      <void property="activo">
+       <boolean>true</boolean>
+      </void>
+      <void property="dosPorUno">
+       <boolean>true</boolean>
+      </void>
+      <void property="dtoPorCant">
+       <boolean>false</boolean>
+      </void>
+      <void property="idPromocion">
+       <string>46e41945-30bd-47af-a101-d01505d84571</string>
+      </void>
+      <void property="nombre">
+       <string>Test promo</string>
+      </void>
+      <void property="producto">
+       <object class="com.grupo8.app.modelo.Producto">
+        <void property="costo">
+         <float>50.0</float>
+        </void>
+        <void property="id">
+         <string>efbc70ef-6100-4330-8f92-30aaf1376280</string>
+        </void>
+        <void property="nombre">
+         <string>Pizza</string>
+        </void>
+        <void property="precio">
+         <float>100.0</float>
+        </void>
+        <void property="stock">
+         <int>200</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Promociones.PromocionFija">
+      <void property="activo">
+       <boolean>true</boolean>
+      </void>
+      <void property="dosPorUno">
+       <boolean>false</boolean>
+      </void>
+      <void property="dtoPorCant">
+       <boolean>true</boolean>
+      </void>
+      <void property="idPromocion">
+       <string>8ba2393e-5677-49ce-b44b-ccc15687f8d9</string>
+      </void>
+      <void property="nombre">
+       <string>Test promo editada</string>
+      </void>
+      <void property="producto">
+       <object class="com.grupo8.app.modelo.Producto">
+        <void property="costo">
+         <float>50.0</float>
+        </void>
+        <void property="id">
+         <string>e7ebdfde-fabc-475d-8575-c92b53f0349f</string>
+        </void>
+        <void property="nombre">
+         <string>test</string>
+        </void>
+        <void property="precio">
+         <float>100.0</float>
+        </void>
+        <void property="stock">
+         <int>200</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Promociones.PromocionFija">
+      <void property="activo">
+       <boolean>true</boolean>
+      </void>
+      <void property="diasPromo">
+       <object idref="ArrayList0"/>
+      </void>
+      <void property="dosPorUno">
+       <boolean>false</boolean>
+      </void>
+      <void property="dtoPorCant">
+       <boolean>true</boolean>
+      </void>
+      <void property="dtoPorCantMin">
+       <int>3</int>
+      </void>
+      <void property="dtoPorCantPrecioU">
+       <double>50.0</double>
+      </void>
+      <void property="idPromocion">
+       <string>97e4e3ce-5aa8-431a-ab27-63be2ffcbeb0</string>
+      </void>
+      <void property="nombre">
+       <string>Test promo 2</string>
+      </void>
+      <void property="producto">
+       <object idref="Producto0"/>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
