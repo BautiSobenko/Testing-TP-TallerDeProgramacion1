@@ -1,8 +1,10 @@
-package com.grupo8.app.negocio;
+package com.grupo8.app.negocio.testNegocio;
 
 import com.grupo8.app.dto.*;
 import com.grupo8.app.excepciones.EntidadNoEncontradaException;
 import com.grupo8.app.excepciones.MalaSolicitudException;
+import com.grupo8.app.negocio.GestionDeProductos;
+import com.grupo8.app.negocio.GestionDePromos;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -141,7 +141,7 @@ public class Empresa {
         }
     }
 
-    private void cargarProductos() {
+    public void cargarProductos() {
         Ipersistencia<ProductoWrapper> persistencia = new PersistenciaXML();
 
         try { // cargar los datos de la agencia desde el archivo XML
@@ -175,7 +175,7 @@ public class Empresa {
         }
     }
 
-    private void cargarMozos() {
+    public void cargarMozos() {
         Ipersistencia<MozoWrapper> persistencia = new PersistenciaXML();
 
         try { // cargar los datos de la agencia desde el archivo XML
