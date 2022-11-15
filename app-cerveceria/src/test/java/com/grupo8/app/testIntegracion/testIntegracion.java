@@ -1,4 +1,4 @@
-package testIntegracion;
+package com.grupo8.app.testIntegracion;
 
 import com.grupo8.app.dto.*;
 import com.grupo8.app.excepciones.EntidadNoEncontradaException;
