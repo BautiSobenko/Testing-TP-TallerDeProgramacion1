@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="16.0.2" class="java.beans.XMLDecoder">
+ <object class="com.grupo8.app.wrappers.OperariosWrapper">
+  <void property="operarios">
+   <object class="java.util.HashSet">
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Operario">
+      <void property="activo">
+       <boolean>true</boolean>
+      </void>
+      <void property="nombreCompleto">
+       <string>[TEST] Juan Perez</string>
+      </void>
+      <void property="password">
+       <string>jperez1234</string>
+      </void>
+      <void property="username">
+       <string>jperez</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Operario">
+      <void property="activo">
+       <boolean>true</boolean>
+      </void>
+      <void property="nombreCompleto">
+       <string>[TEST] Juan Perez</string>
+      </void>
+      <void property="password">
+       <string>jperez1234</string>
+      </void>
+      <void property="username">
+       <string>jperez</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Operario">
+      <void property="activo">
+       <boolean>true</boolean>
+      </void>
+      <void property="nombreCompleto">
+       <string>admin</string>
+      </void>
+      <void property="password">
+       <string>admin1234</string>
+      </void>
+      <void property="username">
+       <string>admin</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

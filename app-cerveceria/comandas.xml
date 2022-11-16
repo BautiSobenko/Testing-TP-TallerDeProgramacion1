@@ -7,7 +7,7 @@
      <object class="com.grupo8.app.modelo.Comanda">
       <void property="apertura">
        <object class="java.util.Date">
-        <long>1668541749429</long>
+        <long>1668558015320</long>
        </object>
       </void>
       <void property="estadoPedido">
@@ -17,12 +17,12 @@
        </object>
       </void>
       <void property="id">
-       <string>08be2ce3-522b-4c1d-8cad-580fd935d997</string>
+       <string>520af98e-f538-489e-83b7-062c53055f60</string>
       </void>
       <void property="mesa">
        <object class="com.grupo8.app.modelo.Mesa">
         <void property="cantSillas">
-         <int>12</int>
+         <int>4</int>
         </void>
         <void property="estadoMesa">
          <object class="java.lang.Enum" id="EstadoMesa0" method="valueOf">
@@ -40,19 +40,19 @@
           </void>
           <void property="fechaNacimiento">
            <object class="java.util.Date">
-            <long>1668272496485</long>
+            <long>1668558015297</long>
            </object>
           </void>
           <void property="id">
-           <string>1de972fa-2bee-4ab9-a363-f37260e2740a</string>
+           <string>1ebce0bf-8345-4504-ad36-c5833723d1ac</string>
           </void>
           <void property="nombreCompleto">
-           <string>test</string>
+           <string>TEST</string>
           </void>
          </object>
         </void>
         <void property="nroMesa">
-         <int>1111</int>
+         <int>1000</int>
         </void>
        </object>
       </void>
@@ -65,43 +65,28 @@
      <object class="com.grupo8.app.modelo.Comanda">
       <void property="apertura">
        <object class="java.util.Date">
-        <long>1668541757494</long>
+        <long>1668558015357</long>
        </object>
       </void>
       <void property="estadoPedido">
        <object idref="EstadoComanda0"/>
       </void>
       <void property="id">
-       <string>fa788574-5a09-4225-a584-37aa28ef497f</string>
+       <string>226379ef-8305-4256-a00c-62623a4f5731</string>
       </void>
       <void property="mesa">
        <object class="com.grupo8.app.modelo.Mesa">
         <void property="cantSillas">
-         <int>12</int>
+         <int>4</int>
         </void>
         <void property="estadoMesa">
-         <object idref="EstadoMesa0"/>
-        </void>
-        <void property="mozoAsignado">
-         <object class="com.grupo8.app.modelo.Mozo">
-          <void property="estadoMozo">
-           <object idref="EstadoMozo0"/>
-          </void>
-          <void property="fechaNacimiento">
-           <object class="java.util.Date">
-            <long>1668272496357</long>
-           </object>
-          </void>
-          <void property="id">
-           <string>210de9d9-cf84-429e-9fad-8119e58c7b8d</string>
-          </void>
-          <void property="nombreCompleto">
-           <string>test</string>
-          </void>
+         <object class="java.lang.Enum" method="valueOf">
+          <class>com.grupo8.app.tipos.EstadoMesa</class>
+          <string>LIBRE</string>
          </object>
         </void>
         <void property="nroMesa">
-         <int>22</int>
+         <int>1000</int>
         </void>
        </object>
       </void>
@@ -114,19 +99,19 @@
      <object class="com.grupo8.app.modelo.Comanda">
       <void property="apertura">
        <object class="java.util.Date">
-        <long>1668541837588</long>
+        <long>1668558015406</long>
        </object>
       </void>
       <void property="estadoPedido">
        <object idref="EstadoComanda0"/>
       </void>
       <void property="id">
-       <string>ad34cbdf-fe1b-49dd-8ffb-8d71cacb8a03</string>
+       <string>bc1e3dfd-e27b-43cd-ae48-dff0ea11b6c0</string>
       </void>
       <void property="mesa">
        <object class="com.grupo8.app.modelo.Mesa">
         <void property="cantSillas">
-         <int>12</int>
+         <int>4</int>
         </void>
         <void property="estadoMesa">
          <object idref="EstadoMesa0"/>
@@ -138,73 +123,62 @@
           </void>
           <void property="fechaNacimiento">
            <object class="java.util.Date">
-            <long>984625200000</long>
+            <long>1668558015383</long>
            </object>
           </void>
           <void property="id">
-           <string>b2d42b1f-ebaf-4e09-bec5-9bc5a457a2cb</string>
+           <string>2580c27e-305f-4106-bc07-270549edd613</string>
           </void>
           <void property="nombreCompleto">
-           <string>Jeremias Savarino</string>
+           <string>TEST</string>
           </void>
          </object>
         </void>
         <void property="nroMesa">
-         <int>12</int>
+         <int>1000</int>
         </void>
        </object>
       </void>
       <void property="pedidos">
-       <object class="java.util.ArrayList"/>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Comanda">
-      <void property="apertura">
-       <object class="java.util.Date">
-        <long>1668541868939</long>
-       </object>
-      </void>
-      <void property="estadoPedido">
-       <object idref="EstadoComanda0"/>
-      </void>
-      <void property="id">
-       <string>b9244285-f1ee-43dd-a169-0b42dd112482</string>
-      </void>
-      <void property="mesa">
-       <object class="com.grupo8.app.modelo.Mesa">
-        <void property="cantSillas">
-         <int>12</int>
-        </void>
-        <void property="estadoMesa">
-         <object idref="EstadoMesa0"/>
-        </void>
-        <void property="mozoAsignado">
-         <object class="com.grupo8.app.modelo.Mozo">
-          <void property="estadoMozo">
-           <object idref="EstadoMozo0"/>
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="com.grupo8.app.modelo.Pedido">
+          <void property="cantidad">
+           <int>2</int>
           </void>
-          <void property="fechaNacimiento">
+          <void property="id">
+           <string>56f22bb4-c682-4da4-bc7a-462fb1525dda</string>
+          </void>
+          <void property="producto">
+           <object class="com.grupo8.app.modelo.Producto">
+            <void property="costo">
+             <float>50.0</float>
+            </void>
+            <void property="id">
+             <string>36ed84bf-7265-42f7-89d7-f37325ddaa87</string>
+            </void>
+            <void property="nombre">
+             <string>Test</string>
+            </void>
+            <void property="precio">
+             <float>100.0</float>
+            </void>
+            <void property="stock">
+             <int>198</int>
+            </void>
+           </object>
+          </void>
+          <void property="subtotal">
+           <float>200.0</float>
+          </void>
+          <void property="timestamp">
            <object class="java.util.Date">
-            <long>1668272496433</long>
+            <long>1668558015413</long>
            </object>
-          </void>
-          <void property="id">
-           <string>e10ee385-6146-4bf9-8b04-d600534af53e</string>
-          </void>
-          <void property="nombreCompleto">
-           <string>test</string>
           </void>
          </object>
         </void>
-        <void property="nroMesa">
-         <int>21</int>
-        </void>
        </object>
-      </void>
-      <void property="pedidos">
-       <object class="java.util.ArrayList"/>
       </void>
      </object>
     </void>

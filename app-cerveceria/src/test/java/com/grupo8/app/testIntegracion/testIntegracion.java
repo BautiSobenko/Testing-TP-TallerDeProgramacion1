@@ -100,10 +100,7 @@ public class testIntegracion {
 
                 Optional<CierreComanda> cierre = empresa.getCierreComandas().getCierreComandas().stream()
                         .filter(x -> Objects.equals(x.getId(), comandaDTO.getId())).findFirst();
-                System.out.println(comandaDTO.getId());
-                for(CierreComanda x : empresa.getCierreComandas().getCierreComandas()){
-                    System.out.println(x.getId());
-                }
+
                 Assert.assertEquals("La comanda deberia estar cerrada",cierre.get().getEstadoPedido(), EstadoComanda.CERRADA);
                 Assert.assertEquals("El precio deberia ser 30*2=60",comandaDTO.getSubtotal(),60,0.5);
 

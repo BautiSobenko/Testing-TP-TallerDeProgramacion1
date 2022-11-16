@@ -6,7 +6,7 @@
     <void method="add">
      <object class="com.grupo8.app.modelo.Mesa">
       <void property="cantSillas">
-       <int>21</int>
+       <int>23</int>
       </void>
       <void property="estadoMesa">
        <object class="java.lang.Enum" id="EstadoMesa0" method="valueOf">
@@ -15,7 +15,20 @@
        </object>
       </void>
       <void property="nroMesa">
-       <int>12228</int>
+       <int>2</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mesa">
+      <void property="cantSillas">
+       <int>121</int>
+      </void>
+      <void property="estadoMesa">
+       <object idref="EstadoMesa0"/>
+      </void>
+      <void property="nroMesa">
+       <int>2211</int>
       </void>
      </object>
     </void>
@@ -28,41 +41,20 @@
        <object idref="EstadoMesa0"/>
       </void>
       <void property="nroMesa">
-       <int>43</int>
+       <int>12</int>
       </void>
      </object>
     </void>
     <void method="add">
      <object class="com.grupo8.app.modelo.Mesa">
       <void property="cantSillas">
-       <int>1</int>
+       <int>21</int>
       </void>
       <void property="estadoMesa">
        <object idref="EstadoMesa0"/>
       </void>
-      <void property="mozoAsignado">
-       <object class="com.grupo8.app.modelo.Mozo">
-        <void property="estadoMozo">
-         <object class="java.lang.Enum" id="EstadoMozo0" method="valueOf">
-          <class>com.grupo8.app.tipos.EstadoMozo</class>
-          <string>ACTIVO</string>
-         </object>
-        </void>
-        <void property="fechaNacimiento">
-         <object class="java.util.Date">
-          <long>1668272496410</long>
-         </object>
-        </void>
-        <void property="id">
-         <string>b63c0cbc-927b-4157-bd49-0792e6bbb82c</string>
-        </void>
-        <void property="nombreCompleto">
-         <string>test</string>
-        </void>
-       </object>
-      </void>
       <void property="nroMesa">
-       <int>222</int>
+       <int>12228</int>
       </void>
      </object>
     </void>
@@ -82,55 +74,13 @@
     <void method="add">
      <object class="com.grupo8.app.modelo.Mesa">
       <void property="cantSillas">
-       <int>2</int>
+       <int>12</int>
       </void>
       <void property="estadoMesa">
        <object idref="EstadoMesa0"/>
       </void>
       <void property="nroMesa">
-       <int>1211</int>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Mesa">
-      <void property="cantSillas">
-       <int>4</int>
-      </void>
-      <void property="estadoMesa">
-       <object idref="EstadoMesa0"/>
-      </void>
-      <void property="nroMesa">
-       <int>1</int>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Mesa">
-      <void property="cantSillas">
-       <int>23</int>
-      </void>
-      <void property="estadoMesa">
-       <object idref="EstadoMesa0"/>
-      </void>
-      <void property="mozoAsignado">
-       <object class="com.grupo8.app.modelo.Mozo">
-        <void property="cantidadHijos">
-         <int>2</int>
-        </void>
-        <void property="estadoMozo">
-         <object idref="EstadoMozo0"/>
-        </void>
-        <void property="id">
-         <string>bba43b8b-f462-4186-a4c2-49319b53646c</string>
-        </void>
-        <void property="nombreCompleto">
-         <string>[TEST] Juan Perez</string>
-        </void>
-       </object>
-      </void>
-      <void property="nroMesa">
-       <int>2</int>
+       <int>43</int>
       </void>
      </object>
     </void>
@@ -140,62 +90,10 @@
        <int>12</int>
       </void>
       <void property="estadoMesa">
-       <object class="java.lang.Enum" id="EstadoMesa1" method="valueOf">
-        <class>com.grupo8.app.tipos.EstadoMesa</class>
-        <string>OCUPADA</string>
-       </object>
-      </void>
-      <void property="mozoAsignado">
-       <object class="com.grupo8.app.modelo.Mozo">
-        <void property="estadoMozo">
-         <object idref="EstadoMozo0"/>
-        </void>
-        <void property="fechaNacimiento">
-         <object class="java.util.Date">
-          <long>984625200000</long>
-         </object>
-        </void>
-        <void property="id">
-         <string>b2d42b1f-ebaf-4e09-bec5-9bc5a457a2cb</string>
-        </void>
-        <void property="nombreCompleto">
-         <string>Jeremias Savarino</string>
-        </void>
-       </object>
+       <object idref="EstadoMesa0"/>
       </void>
       <void property="nroMesa">
-       <int>12</int>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Mesa">
-      <void property="cantSillas">
-       <int>12</int>
-      </void>
-      <void property="estadoMesa">
-       <object idref="EstadoMesa1"/>
-      </void>
-      <void property="mozoAsignado">
-       <object class="com.grupo8.app.modelo.Mozo">
-        <void property="estadoMozo">
-         <object idref="EstadoMozo0"/>
-        </void>
-        <void property="fechaNacimiento">
-         <object class="java.util.Date">
-          <long>1668272496357</long>
-         </object>
-        </void>
-        <void property="id">
-         <string>210de9d9-cf84-429e-9fad-8119e58c7b8d</string>
-        </void>
-        <void property="nombreCompleto">
-         <string>test</string>
-        </void>
-       </object>
-      </void>
-      <void property="nroMesa">
-       <int>22</int>
+       <int>21</int>
       </void>
      </object>
     </void>
@@ -218,59 +116,10 @@
        <int>12</int>
       </void>
       <void property="estadoMesa">
-       <object idref="EstadoMesa1"/>
-      </void>
-      <void property="mozoAsignado">
-       <object class="com.grupo8.app.modelo.Mozo">
-        <void property="estadoMozo">
-         <object idref="EstadoMozo0"/>
-        </void>
-        <void property="fechaNacimiento">
-         <object class="java.util.Date">
-          <long>1668272496485</long>
-         </object>
-        </void>
-        <void property="id">
-         <string>1de972fa-2bee-4ab9-a363-f37260e2740a</string>
-        </void>
-        <void property="nombreCompleto">
-         <string>test</string>
-        </void>
-       </object>
+       <object idref="EstadoMesa0"/>
       </void>
       <void property="nroMesa">
-       <int>1111</int>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="com.grupo8.app.modelo.Mesa">
-      <void property="cantSillas">
-       <int>121</int>
-      </void>
-      <void property="estadoMesa">
-       <object idref="EstadoMesa1"/>
-      </void>
-      <void property="mozoAsignado">
-       <object class="com.grupo8.app.modelo.Mozo">
-        <void property="estadoMozo">
-         <object idref="EstadoMozo0"/>
-        </void>
-        <void property="fechaNacimiento">
-         <object class="java.util.Date">
-          <long>1668272496433</long>
-         </object>
-        </void>
-        <void property="id">
-         <string>e10ee385-6146-4bf9-8b04-d600534af53e</string>
-        </void>
-        <void property="nombreCompleto">
-         <string>test</string>
-        </void>
-       </object>
-      </void>
-      <void property="nroMesa">
-       <int>2211</int>
+       <int>22</int>
       </void>
      </object>
     </void>
@@ -280,28 +129,49 @@
        <int>12</int>
       </void>
       <void property="estadoMesa">
-       <object idref="EstadoMesa1"/>
-      </void>
-      <void property="mozoAsignado">
-       <object class="com.grupo8.app.modelo.Mozo">
-        <void property="estadoMozo">
-         <object idref="EstadoMozo0"/>
-        </void>
-        <void property="fechaNacimiento">
-         <object class="java.util.Date">
-          <long>1668272496433</long>
-         </object>
-        </void>
-        <void property="id">
-         <string>e10ee385-6146-4bf9-8b04-d600534af53e</string>
-        </void>
-        <void property="nombreCompleto">
-         <string>test</string>
-        </void>
-       </object>
+       <object idref="EstadoMesa0"/>
       </void>
       <void property="nroMesa">
-       <int>21</int>
+       <int>1111</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mesa">
+      <void property="cantSillas">
+       <int>4</int>
+      </void>
+      <void property="estadoMesa">
+       <object idref="EstadoMesa0"/>
+      </void>
+      <void property="nroMesa">
+       <int>1</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mesa">
+      <void property="cantSillas">
+       <int>1</int>
+      </void>
+      <void property="estadoMesa">
+       <object idref="EstadoMesa0"/>
+      </void>
+      <void property="nroMesa">
+       <int>222</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.grupo8.app.modelo.Mesa">
+      <void property="cantSillas">
+       <int>2</int>
+      </void>
+      <void property="estadoMesa">
+       <object idref="EstadoMesa0"/>
+      </void>
+      <void property="nroMesa">
+       <int>1211</int>
       </void>
      </object>
     </void>
